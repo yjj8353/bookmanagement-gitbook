@@ -50,11 +50,48 @@
 \
 
 
-인증을 필요로합니다.
+인증을 필요로 합니다.
 {% endswagger-description %}
 
 {% swagger-parameter in="body" name="files" type="FormData" required="true" %}
 표지로 사용할 이미지 데이터
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="정상적으로 표지가 저장됨" %}
+```javascript
+{
+    "success": true,
+    "message": "표지 저장에 성공했습니다.",
+    "data": {
+        "imageId": 6
+    },
+    "count": 1,
+    "status": "OK"
+}
+```
+{% endswagger-response %}
+
+{% swagger-response status="401: Unauthorized" description="로그인 하지 않음" %}
+401 HTTP Status 외에 어떠한 데이터로 반환되지 않음.
+{% endswagger-response %}
+
+{% swagger-response status="417: Expectation Failed" description="Access Token이 유효하지 않음" %}
+새로 발급받은 Access Token 값이 Header의 Authorization에 담겨 반환됨.
+{% endswagger-response %}
+{% endswagger %}
+
+{% swagger method="post" path="/image/save-url" baseUrl="/api" summary="URL 표지 저장" %}
+{% swagger-description %}
+이미지의 URL을 통해 저장을 요청하는 API입니다.
+
+\
+
+
+인증을 필요로 합니다.
+{% endswagger-description %}
+
+{% swagger-parameter in="body" name="url" type="String" required="true" %}
+표지로 사용할 이미지의 URL
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="정상적으로 표지가 저장됨" %}
