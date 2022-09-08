@@ -24,3 +24,8 @@ JWT API 문서
 Member API 문서
 {% endembed %}
 
+## Naver
+
+{% embed url="https://app.gitbook.com/s/D6dAOCAQfCwTaIXfPRSa/~/changes/S4iTFvSK5XF3t27tFObm/api/naver" %}
+Naver API 문서
+{% endembed %}
