@@ -8,7 +8,7 @@
 
 ### **Yarn**
 
-Node.js를 기반으로 동작하는 JavaScript 진영의 패키지 매니저 입니다. Java로 치면 Maven이나 Gradle과 비슷한 역할을 합니다.
+Node.js를 기반으로 동작하는 npm을 대체하는 JavaScript 진영의 패키지 매니저 입니다. Java로 치면 Maven이나 Gradle과 비슷한 역할을 합니다.
 
 ### **Vue.js 3**
 
