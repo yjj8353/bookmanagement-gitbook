@@ -11,4 +11,4 @@
 
 (3) 조회 된 책을 클릭하면 좀 더 자세한 정보를 볼 수 있습니다.
 
-<figure><img src="../.gitbook/assets/2022-09-11 14_55_56-Book Management 외 페이지 1개 - 개인 - Microsoft​ Edge.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2022-09-11 14_55_56-Book Management 외 페이지 1개 - 개인 - Microsoft​ Edge (1).png" alt=""><figcaption></figcaption></figure>
