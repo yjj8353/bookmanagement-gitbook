@@ -18,4 +18,3 @@
   * [책 조회](undefined-4/undefined-4.md)
   * [책 수정](undefined-4/undefined-5.md)
   * [책 삭제](undefined-4/undefined-6.md)
-* [진행하며 아쉬웠던 점](undefined-5.md)
