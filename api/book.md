@@ -7,7 +7,7 @@
 \
 
 
-인증을 필요로하지 않습니다.ㄹ
+인증을 필요로하지 않습니다.
 {% endswagger-description %}
 
 {% swagger-parameter in="query" name="title" type="" %}
@@ -83,6 +83,57 @@
     "count": 1,
     "status": "OK"
 }</code></pre>
+{% endswagger-response %}
+{% endswagger %}
+
+{% swagger method="post" path="/book/save" baseUrl="/api" summary="책 저장" %}
+{% swagger-description %}
+저장할 책 정보를 담은 Book 객체로 저장을 요청하는 API입니다.
+
+\
+
+
+인증을 필요로합니다.
+{% endswagger-description %}
+
+{% swagger-parameter in="body" name="title" type="String" required="true" %}
+책 제목
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="isbn" type="String" required="true" %}
+국제표준도서번호
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="authors" type="Array" %}
+저자 정보가 담긴 Author 객체가 Array 형태로 담긴 객체
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="publisher" type="Object" %}
+출판사 정보가 담긴 Publisher 객체
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="image" type="Object" %}
+표지 정보가 담긴 Image 객체
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="정상적으로 책 저장이 완료됨" %}
+```javascript
+{
+    "success": true,
+    "message": "책 저장이 완료 되었습니다.",
+    "data": null,
+    "count": 0,
+    "status": "OK"
+}
+```
+{% endswagger-response %}
+
+{% swagger-response status="401: Unauthorized" description="로그인 하지 않음" %}
+401 HTTP Status 외에 어떠한 데이터도 반환되지 않음.
+{% endswagger-response %}
+
+{% swagger-response status="417: Expectation Failed" description="Access Token이 유효하지 않음" %}
+새로 발급받은 Access Token 값이 Header의 Authorization에 담겨 반환됨.
 {% endswagger-response %}
 {% endswagger %}
 

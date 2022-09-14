@@ -154,10 +154,6 @@ Refresh Token 값이 담긴 Member 객체
 계정
 {% endswagger-parameter %}
 
-{% swagger-parameter in="query" name="passcode" type="String" required="true" %}
-인증 시 사용자를 식별하기 위한 패스코드
-{% endswagger-parameter %}
-
 {% swagger-response status="200: OK" description="정상적으로 인증됨" %}
 ```javascript
 {

@@ -10,10 +10,6 @@ Naver API를 이용해 책 조회를 요청하는 API 입니다.
 인증을 필요로합니다.
 {% endswagger-description %}
 
-{% swagger-parameter in="query" name="isbn" required="true" %}
-조회 할 ISBN 값
-{% endswagger-parameter %}
-
 {% swagger-response status="200: OK" description="정상적으로 조회됨" %}
 ```javascript
 {
