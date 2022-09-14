@@ -104,15 +104,15 @@
 국제표준도서번호
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="authors" type="Array" %}
+{% swagger-parameter in="body" name="authors" type="Array" required="true" %}
 저자 정보가 담긴 Author 객체가 Array 형태로 담긴 객체
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="publisher" type="Object" %}
+{% swagger-parameter in="body" name="publisher" type="Object" required="true" %}
 출판사 정보가 담긴 Publisher 객체
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="image" type="Object" %}
+{% swagger-parameter in="body" name="image" type="Object" required="true" %}
 표지 정보가 담긴 Image 객체
 {% endswagger-parameter %}
 
