@@ -3,7 +3,7 @@
 * [목차](README.md)
 * [이 프로젝트는?](undefined-1.md)
 * [사용한 기술 스택](undefined-2.md)
-* [애플리케이션의 구조](undefined-3.md)
+* [어플리케이션의 구조](undefined-3.md)
 * [데이터베이스 테이블 구조](undefined-4.md)
 * [API 문서](api/README.md)
   * [Book](api/book.md)
