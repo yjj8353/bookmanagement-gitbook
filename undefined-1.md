@@ -4,6 +4,14 @@
 
 백엔드 + 프론트엔드 모든 범위 직접 개발
 
+### 소스코드
+
+{% embed url="https://github.com/yjj8353/me.retrotv.bookmanagement" %}
+
+### 데모 사이트
+
+{% embed url="https://bookmanagement.retrotv.me:8443" %}
+
 ### 사용 대상자
 
 이 프로젝트 개발자를 포함한 주변의 책 관리로 힘든 사람들 (약 3명 정도)
