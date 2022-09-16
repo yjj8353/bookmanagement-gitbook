@@ -22,6 +22,22 @@
 출판사명
 {% endswagger-parameter %}
 
+{% swagger-parameter in="query" name="refreshToken" %}
+현재 로그인한 사용자의 Refresh Token
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="size" type="int" %}
+한 화면에 보여줄 책 권수
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="page" type="int" %}
+사용자에게 보여줄 페이지
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="pageSize" type="int" %}
+화면 하단의 페이지 네비게이션 개수
+{% endswagger-parameter %}
+
 {% swagger-response status="200: OK" description="정상적으로 책 조회가 완료됨" %}
 <pre class="language-json"><code class="lang-json"><strong>// 조회된 책이 한 권도 없는 경우
 </strong><strong>{
@@ -101,7 +117,7 @@
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="정상적으로 책 저장이 완료됨" %}
-```json
+```javascript
 {
     "success": true,
     "message": "책 저장이 완료 되었습니다.",
@@ -113,7 +129,7 @@
 {% endswagger-response %}
 
 {% swagger-response status="401: Unauthorized" description="로그인 하지 않음" %}
-401 HTTP Status 외에 어떠한 데이터로 반환되지 않음.
+401 HTTP Status 외에 어떠한 데이터도 반환되지 않음.
 {% endswagger-response %}
 
 {% swagger-response status="417: Expectation Failed" description="Access Token이 유효하지 않음" %}

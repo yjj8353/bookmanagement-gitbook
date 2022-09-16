@@ -1,4 +1,8 @@
-# 목차
+# 프로젝트 동작과정
+
+{% content-ref url="undefined.md" %}
+[undefined.md](undefined.md)
+{% endcontent-ref %}
 
 {% content-ref url="undefined-1.md" %}
 [undefined-1.md](undefined-1.md)
@@ -12,14 +16,14 @@
 [undefined-3.md](undefined-3.md)
 {% endcontent-ref %}
 
-{% content-ref url="erd.md" %}
-[erd.md](erd.md)
+{% content-ref url="undefined-4.md" %}
+[undefined-4.md](undefined-4.md)
 {% endcontent-ref %}
 
-{% content-ref url="api/" %}
-[api](api/)
+{% content-ref url="undefined-5.md" %}
+[undefined-5.md](undefined-5.md)
 {% endcontent-ref %}
 
-{% content-ref url="undefined-4/" %}
-[undefined-4](undefined-4/)
+{% content-ref url="undefined-6.md" %}
+[undefined-6.md](undefined-6.md)
 {% endcontent-ref %}
