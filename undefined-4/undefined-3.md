@@ -1,12 +1,14 @@
-# 책 저장
+# 패스워드 변경
 
-(1) 직접 책 정보를 채워 넣은 뒤, 저장 버튼을 클릭해 저장할 수 있습니다.
+(1) 로그인 후, MY 버튼을 클릭합니다.
 
-<figure><img src="../.gitbook/assets/2022-09-11 12_56_05-Book Management 외 페이지 3개 - 개인 - Microsoft​ Edge (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2022-09-17 10_41_23-Book Management - 개인 - Microsoft​ Edge.png" alt=""><figcaption></figcaption></figure>
 
-(2) 혹은 ISBN 값으로 책 데이터를 스크레이핑 해, 책 정보를 자동으로 채울 수 있습니다. (이 프로젝트는 \
-&#x20;     네이버 Open API를 이용해 책 데이터를 받아오고 있습니다.)
+(2) 기존에 사용하던 패스워드와 새로운 패스워드를 입력하고 변경을 합니다. 이 과정에서 기존\
+&#x20;     패스워드가 다르다면 경고가 뜨면서 패스워드가 변경되지 않습니다.
 
-<figure><img src="../.gitbook/assets/2022-09-12 00_54_43-Book Management 외 페이지 3개 - 개인 - Microsoft​ Edge.png" alt=""><figcaption><p>ISBN을 입력하면 네이버 Open API를 통해 데이터를 받아옵니다</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2022-09-17 10_41_49-Book Management - 개인 - Microsoft​ Edge (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/2022-09-12 00_55_22-Book Management 외 페이지 3개 - 개인 - Microsoft​ Edge.png" alt=""><figcaption><p>자동으로 데이터가 채워진 모습</p></figcaption></figure>
+(3) 패스워드 변경에 성공하면 자동으로 로그아웃 됩니다.
+
+<figure><img src="../.gitbook/assets/2022-09-17 10_42_16-Book Management - 개인 - Microsoft​ Edge (1).png" alt=""><figcaption></figcaption></figure>
