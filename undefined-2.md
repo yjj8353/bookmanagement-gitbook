@@ -2,9 +2,9 @@
 
 ## 프론트엔드
 
-### JavaScript ES6/HTML5/CSS3
+### **TypeScript**/HTML5/CSS3
 
-이 세가지 요소는 프론트엔드를 개발할 때, 절대로 빼놓을 수 없는 요소들 입니다.
+HTML5/CSS3는 프론트엔드를 개발할 때, 절대로 빼놓을 수 없는 요소들 입니다. TypeScript는 JavaScript가 동적 언어이기 때문에 생기는 문제를 해결하기 위해 나온 슈퍼셋(Superset: 상위 집합) 프로그래밍 언어 입니다. JavaScript와 달리 변수의 자료형을 지정할 수 있다는 점이 가장 큰 특징입니다.
 
 ### **Node.js**
 
@@ -31,10 +31,6 @@ Vue.js 3(이하 Vue)는 SPA(Single Page Application) 프론트 엔드를 개발�
 4.  #### **Pinia**
 
     Vue의 공식 상태 관리 라이브러리였던 Vuex를 대체하는 라이브러리 입니다. Vue의 창시자인 '에반 유'가 공식적으로 추천했던 까닭에 사용하게 되었습니다.
-
-### **TypeScript**
-
-TypeScript는 JavaScript가 동적 언어이기 때문에 생기는 문제를 해결하기 위해 나온 슈퍼셋(Superset: 상위 집합) 프로그래밍 언어 입니다. JavaScript와 달리 변수의 자료형을 지정할 수 있다는 점이 가장 큰 특징입니다.
 
 ### **Axios**
 
